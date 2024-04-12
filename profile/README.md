@@ -4,13 +4,13 @@ Welcome to the GitHub repository for the RAGE development component of the Advan
 
 ## About RAGE
 
-RAGE is designed to enhance AI applications by integrating advanced retrieval techniques with generative systems. This allows for more accurate, context-relevant outputs in real-time applications such as chatbots, content generation, and complex data analysis.
-(R)etrieval (A)ugmented (G)enerative (E)ngine (RAGE)
+RAGE is designed to enhance AI applications by integrating advanced retrieval techniques with generative systems. This allows for more accurate, context-relevant outputs in real-time applications such as chatbots, content generation, and complex data analysis as a dynamic (R)etrieval (A)ugmented (G)enerative (E)ngine.
 ## Hackathon Goals
 
 - **Innovate and Enhance**: Develop new features or improve existing functionalities of the RAGE engine.
 - **Integration**: Seamlessly integrate RAGE with other AI components to create more efficient and powerful systems.
 - **Collaboration**: Work alongside fellow developers, share ideas, and combine expertise to push the boundaries of what's possible with RAGE.
+- **Expression of RAGE as agnostic UI incorporating Vectara and together.ai components for dynamic training as machine dreaming
 
 ## Getting Started
 
