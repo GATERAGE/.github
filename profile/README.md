@@ -28,7 +28,7 @@ Please review the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how 
 
 ## Resources
 
-- [Official RAGE](https://github.com/GATERAGE
+- [Official RAGE GATE](https://github.com/GATERAGE)
 - [LabLab Hackathon Resources](https://lablab.ai/resources)
 
 ## Support
