@@ -1,5 +1,5 @@
-# RAGE Development at Advanced RAG Hackathon
-
+# RAGE is developing a Retrieval Augmented Generation Engine
+# GATE General Automation Technology Environment
 Welcome to the GitHub repository for the RAGE development component of the Advanced RAG Hackathon, hosted by [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon). This hackathon focuses on the innovative integration and enhancement of Retrieval-Augmented Generation (RAG) systems. Participants will work on expanding the capabilities of RAGE (Retrieval Augmented Generative Engine), exploring new frontiers in AI and machine learning.
 
 ## About RAGE
