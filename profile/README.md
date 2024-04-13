@@ -37,4 +37,5 @@ For any queries or technical issues, please open an issue on this repository or 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License, GPLv2, GPLv3 and Apache License where applicable - see the [LICENSE.md](LICENSE.md) file for details.
+
