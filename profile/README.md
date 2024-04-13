@@ -1,6 +1,6 @@
 # RAGE is developing a Retrieval Augmented Generation Engine
 # GATE General Automation Technology Environment
-Welcome to the GitHub repository for the RAGE development component of the Advanced RAG Hackathon, hosted by [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon). This hackathon focuses on the innovative integration and enhancement of Retrieval-Augmented Generation (RAG) systems. Participants will work on expanding the capabilities of RAGE (Retrieval Augmented Generative Engine) as a dynamic learning engine exploring new frontiers in Autonomous Intelligence and Machine Learning.
+Welcome to the GitHub repository for the RAGE development component of the Advanced RAG Hackathon, hosted by [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon) entered as <a href="https://lablab.ai/event/advanced-rag-hackathon/mastermind">MASTERMIND</a> with RAGE. This hackathon focuses on the innovative integration and enhancement of Retrieval-Augmented Generation (RAG) systems. Participants will work on expanding the capabilities of RAGE (Retrieval Augmented Generative Engine) as a dynamic learning engine exploring new frontiers in Autonomous Intelligence and Machine Learning.
 
 ## About RAGE
 
