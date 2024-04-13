@@ -29,7 +29,7 @@ Please review the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how 
 ## Resources
 
 - [Official RAGE GATE](https://github.com/GATERAGE)
-- [LabLab Hackathon Resources](https://lablab.ai/resources)
+- [LabLab Hackathon Resources]([https://lablab.ai/resources](https://lablab.ai/event/advanced-rag-hackathon/mastermind))
 
 ## Support
 
