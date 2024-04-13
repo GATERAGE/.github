@@ -19,7 +19,7 @@ To participate in the hackathon and start contributing to RAGE development, plea
 1. **Join the Hackathon**: Register at [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon) to participate.
 2. **Set Up Your Environment**:
    - Fork this repository.
-   - Clone your fork locally: `git clone https://github.com/your-username/RAGE-repo.git`
+   - Clone your fork locally: `git clone https://github.com/your-username/RAGE.git`
    - Set up your development environment according to the setup instructions in the [SETUP.md](SETUP.md) file.
 
 ## Contribution Guidelines
