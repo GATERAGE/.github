@@ -10,7 +10,7 @@ RAGE is designed to enhance AI applications by integrating advanced retrieval te
 - **Innovate and Enhance**: Develop new features or improve existing functionalities of the RAGE engine.
 - **Integration**: Seamlessly integrate RAGE with other AI components to create more efficient and powerful systems.
 - **Collaboration**: Work alongside fellow developers, share ideas, and combine expertise to push the boundaries of what's possible with RAGE.
-- **Expression of RAGE as agnostic UI incorporating Vectara and together.ai components for dynamic training as machine dreaming
+- **Expression of RAGE**: as agnostic UI incorporating Vectara and together.ai components for dynamic training as machine dreaming
 
 ## Getting Started
 
