@@ -1,10 +1,10 @@
 # RAGE is the Retrieval Augmented Generation Engine
 # GATE is the General Automation Technology Environment
-Welcome to the GitHub repository for the RAGE development component of the Advanced RAG Hackathon, hosted by [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon) entered as <a href="https://lablab.ai/event/advanced-rag-hackathon/mastermind">MASTERMIND</a> with RAGE. This hackathon focuses on the innovative integration and enhancement of Retrieval-Augmented Generation (RAG) systems. Participants will work on expanding the capabilities of RAGE (Retrieval Augmented Generative Engine) as a dynamic learning engine exploring new frontiers in Autonomous Intelligence and Machine Learning.
+Welcome to the GitHub repository for the <a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> development component of the Advanced RAG Hackathon, hosted by [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon) entered as <a href="https://lablab.ai/event/advanced-rag-hackathon/mastermind">MASTERMIND</a> with RAGE. This hackathon focuses on the innovative integration and enhancement of Retrieval-Augmented Generation (RAG) systems. Participants will work on expanding the capabilities of <a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> (Retrieval Augmented Generative Engine) as a dynamic learning engine exploring new frontiers in Autonomous Intelligence and Machine Learning.
 
 ## About RAGE
 
-RAGE is designed to enhance AI applications by integrating advanced retrieval techniques with generative systems as the Engine component of the original <a href="https://arxiv.org/abs/2005.11401v4">RAG</a>. This allows for more accurate, context-relevant outputs in real-time applications such as chatbots, content generation, and complex data analysis as a dynamic (R)etrieval (A)ugmented (G)enerative (E)ngine.
+<a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> is designed to enhance AI applications by integrating advanced retrieval techniques with generative systems as the Engine component of the original <a href="https://arxiv.org/abs/2005.11401v4">RAG</a>. This allows for more accurate, context-relevant outputs in real-time applications such as chatbots, content generation, and complex data analysis as a dynamic (R)etrieval (A)ugmented (G)enerative (E)ngine.
 ## Hackathon Goals
 
 - **Innovate and Enhance**: Develop new features or improve existing functionalities of the RAGE engine.
