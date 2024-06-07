@@ -8,17 +8,12 @@ Welcome to the GitHub repository for the <a href="https://github.com/GATERAGE/RA
 
 RAGE began life as a hackathon challenge to enhance and augment aGLM MASTERMIND technology and is an evoling platform designed to augment and enhance Business Intelligence
 
-## Hackathon Goals
+## Hackathon Results
 
-- **Innovate and Enhance**: Develop new features or improve existing functionalities of the RAGE engine.
-- **Integration**: Seamlessly integrate RAGE with other AI components to create more efficient and powerful systems.
-- **Collaboration**: Work alongside fellow developers, share ideas, and combine expertise to push the boundaries of what's possible with RAGE.
-- **Expression of RAGE**: as agnostic UI incorporating Vectara and together.ai components for dynamic training as machine dreaming
-
-2. **Set Up Your Environment**:
-   - Fork this repository.
-   - Clone your fork locally: `git clone https://github.com/gaterage/aglm
-   - Set up your development environment according to the setup instructions chmod +x aglm.install && sudo ./aglm.install
+- **Innovate and Enhance**: Developed new features or improve existing functionalities of the RAGE engine.
+- **Integration**: Seamlessly integrated RAGE with other AI components to create more efficient and powerful systems.
+- **Collaboration**: Worked alongside fellow developers, share ideas, and combined expertise to push the boundaries of what's possible with RAGE.
+- **Expression of RAGE**: as an agnostic UI incorporating Vectara cloud database and local vector database with together.ai llama3 and groq components for dynamic training as parsed machine dreaming with aGML and the MASTERMIND agency control structure.
 
 To enhance business intelligence (BI) using RAGE (Retrieval Augmented Generative Engine), we can integrate several components and strategies to ensure accurate, real-time insights, and efficient decision-making. Here's a structured approach to achieving this:
 
