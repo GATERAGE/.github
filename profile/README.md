@@ -104,6 +104,8 @@ By leveraging the RAGE framework with the advanced capabilities of aGLM, busines
 - [Official RAGE GATE](https://github.com/GATERAGE)
 - [MASTERMIND](https://github.com/mastermindML)
 - [Professor Codephreak](https://github.com/Professor-Codephreak)
+- [webmindml](https://github.com/webmindml)
+- [openmind](https://github.com/openmindx)
 - [PYTHAI](https://github.com/pythaiml)
 - [augml](https://github.com/augml)
 - [xtends](https://github.com/xtends)
