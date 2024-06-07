@@ -112,7 +112,7 @@ By leveraging the RAGE framework with the advanced capabilities of aGLM, busines
 
 ## partnership inquiries
 
-mailto: codephreak@pythai.net
+mailto: mmrai@pythai.net
 
 ## License
 
