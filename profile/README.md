@@ -10,7 +10,7 @@ RAGE began life as a hackathon challenge to enhance and augment aGLM MASTERMIND 
 
 ## Hackathon Results
 
-- **Innovate and Enhance**: Developed new features or improve existing functionalities of the RAGE engine.
+- **Innovated and Enhanced**: Developed new features or improve existing functionalities of the RAGE engine.
 - **Integration**: Seamlessly integrated RAGE with other AI components to create more efficient and powerful systems.
 - **Collaboration**: Worked alongside fellow developers, share ideas, and combined expertise to push the boundaries of what's possible with RAGE.
 - **Expression of RAGE**: as an agnostic UI incorporating Vectara cloud database and local vector database with together.ai llama3 and groq components for dynamic training as parsed machine dreaming with aGML and the MASTERMIND agency control structure.
