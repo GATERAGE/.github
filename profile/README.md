@@ -104,9 +104,9 @@ By leveraging the RAGE framework with the advanced capabilities of aGLM, busines
 - [Official RAGE GATE](https://github.com/GATERAGE)
 - [LabLab Hackathon Resources]([https://lablab.ai/resources](https://lablab.ai/event/advanced-rag-hackathon/mastermind))
 
-## Support
+## partnership inquiries
 
-For any queries or technical issues, please open an issue on this repository or contact the hackathon support team at support@lablab.ai.
+mailto: codephreak@pythai.net
 
 ## License
 
