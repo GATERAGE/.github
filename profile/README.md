@@ -38,7 +38,7 @@ Data Retrieval
 
 <b>Vector Store Management</b><br />
 
-    Vectara’s High-Performance Vector Store: Efficiently manages and retrieves embedded data, facilitating quick access for the aGLM.
+    Elastic Search High-Performance Vector Store: Efficiently manages and retrieves embedded data, facilitating quick access for the aGLM.
 
 <b>Dynamic Learning and Adaptation</b><br />
 Learning Mechanism
