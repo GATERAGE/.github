@@ -34,8 +34,7 @@ Data Retrieval
 
 <b>Data Processing and Embedding</b><br />
 
-    Vectara’s Platform: Utilizes Vectara’s platform for pre-processing data.
-    Boomerang Embedding Model: Converts incoming data into meaningful vector representations.
+
 
 <b>Vector Store Management</b><br />
 
