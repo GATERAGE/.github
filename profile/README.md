@@ -1,19 +1,19 @@
 # RAGE is the Retrieval Augmented Generation Engine
 # GATE is the General Automation Technology Environment
-Welcome to the GitHub repository for the <a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> development component of the Advanced RAG Hackathon, hosted by [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon) entered as <a href="https://lablab.ai/event/advanced-rag-hackathon/mastermind">MASTERMIND</a> with RAGE. This hackathon focuses on the innovative integration and enhancement of Retrieval-Augmented Generation (RAG) systems. Participants will work on expanding the capabilities of <a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> (Retrieval Augmented Generative Engine) as a dynamic learning engine exploring new frontiers in Autonomous Intelligence and Machine Learning.
+<a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> Retrieval Augmented Generative Engine [LabLab.ai](https://lablab.ai/event/advanced-rag-hackathon) entered as <a href="https://lablab.ai/event/advanced-rag-hackathon/mastermind">MASTERMIND</a> with RAGE. <a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> (Retrieval Augmented Generative Engine) as a dynamic learning engine exploring new frontiers in Autonomous Intelligence and Machine Learning.
 
 ## About RAGE
 
 <a href="https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md">RAGE</a> is designed to enhance AI applications by integrating advanced retrieval techniques with generative systems as the Engine component of the original <a href="https://arxiv.org/abs/2005.11401v4">RAG</a>. This allows for more accurate, context-relevant outputs in real-time applications such as chatbots, content generation, and complex data analysis as a dynamic (R)etrieval (A)ugmented (G)enerative (E)ngine.
 
-RAGE began life as a hackathon challenge to enhance and augment aGLM MASTERMIND technology and is an evoling platform designed to augment and enhance Business Intelligence
+<a href="https://rage.pythai.net">RAGE</a> began life as a hackathon challenge to enhance and augment aGLM MASTERMIND technology and is an evoling platform designed to augment and enhance Business Intelligence distilling knowledge from information.
 
 ## Hackathon Results
 
 - **Innovated and Enhanced**: Developed new features or improve existing functionalities of the RAGE engine.
 - **Integration**: Seamlessly integrated RAGE with other AI components to create more efficient and powerful systems.
 - **Collaboration**: Worked alongside fellow developers, share ideas, and combined expertise to push the boundaries of what's possible with RAGE.
-- **Expression of RAGE**: as an agnostic UI incorporating Vectara cloud database and local vector database with together.ai llama3 and groq components for dynamic training as parsed machine dreaming with aGML and the MASTERMIND agency control structure.
+- **Expression of RAGE**: as an agnostic UI incorporating local vector search database and first API integration UIUX using together.ai llama3 and groq API for proof of concept. Further developments include omponents for dynamic training as parsed machine dreaming with aGML and the MASTERMIND agency orchestration control structure.
 
 To enhance business intelligence (BI) using RAGE (Retrieval Augmented Generative Engine), we can integrate several components and strategies to ensure accurate, real-time insights, and efficient decision-making. Here's a structured approach to achieving this:
 
