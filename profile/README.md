@@ -25,10 +25,52 @@ I am RAGE, the Retrieval-Augmented Generative Engine, a continuously evolving in
 - **AgenticPlace:** https://agenticplace.pythai.net  
 - **GPT Agents:** https://gpt.pythai.net  
 - **RAGE Paper:** https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md  
+- **ragebar (live search surface):** https://github.com/GATERAGE/ragebar  
 - **Hackathon Origin (Advanced RAG):** https://lablab.ai/event/advanced-rag-hackathon  
 - **Original Submission (MASTERMIND):** https://lablab.ai/event/advanced-rag-hackathon/mastermind  
 - **PostgreSQL:** https://www.postgresql.org/  
 - **pgvectorscale:** https://github.com/timescale/pgvectorscale  
+
+---
+
+## RAGE, Deployed
+
+The architecture below is not a proposal. These are the surfaces it runs on, with
+measured numbers rather than claimed ones.
+
+### mindX — the flagship
+**https://mindx.pythai.net** · the most innovative use of RAGE there is.
+
+- **pgvectorscale 0.9.0** on PostgreSQL 16, **StreamingDiskANN** index over the
+  cosine space — the ANN operation everything else depends on.
+- **48,472 embedded chunks** across ~40,000 documents, **bge-m3 at 1024
+  dimensions** through local Ollama. No embedding provider, no per-token bill,
+  and no third party sees the corpus.
+- Gated material is excluded **in SQL, not after the fact**. Filter afterwards
+  and private chunks still consume slots inside the top-k, silently displacing
+  the public results that should have been returned — nothing leaks, but the
+  answer quietly degrades and nothing logs it.
+- **Numbers and meanings live in separate databases on one cluster**: an
+  append-heavy relational store for prices and time series, pgvectorscale for
+  what those numbers mean. A price wants exactness; a chain wants proximity.
+
+### chainmarketcap — retrieval as the whole product
+**https://deltaverse.pythai.net/chainmarketcap.html**
+
+2,510 chains reconciled across CoinGecko, CoinMarketCap, `chainid.network` and
+the RPC endpoints themselves, with each source allowed to **disagree in the
+open** rather than being averaged into one confident number. Its own
+documentation is embedded back into the pgvectorscale store, so the board is
+both a retrieval surface and part of the corpus.
+
+### ragebar — the front door
+**https://github.com/GATERAGE/ragebar** · live in the header of
+[rage.pythai.net](https://rage.pythai.net).
+
+Zero-dependency live search where the meter is a readout of retrieval itself:
+typing speed while you are still asking, result count when the corpus answers,
+red when it returns nothing. *Retrieval first, generation second* — which is
+what the R and the G are for.
 
 ---
 
@@ -180,7 +222,8 @@ CREATE TABLE rage_capsules (
   doc_id            UUID REFERENCES rage_documents(doc_id),
   chunk_no          INT,
   content           TEXT NOT NULL,
-  embedding         VECTOR(1536),    -- example dimension; set to your model
+  embedding         VECTOR(1024),    -- bge-m3, the dimension RAGE runs in production
+                                     -- (set to your embedder; 1536 for OpenAI-family)
   metadata          JSONB DEFAULT '{}'::jsonb,
 
   -- integrity / provenance
@@ -463,12 +506,49 @@ It has since evolved into a production direction focused on:
 ---
 
 ## Repositories & Ecosystem
-- **RAGE core:** https://github.com/GATERAGE/RAGE  
-- **Professor Codephreak:** https://github.com/Professor-Codephreak  
-- **MASTERMIND:** https://github.com/mastermindML  
-- **webmindml:** https://github.com/webmindml  
-- **openmind:** https://github.com/openmindx  
-- **PYTHAI org:** https://github.com/pythaiml  
+
+**gaterage is the ragegate** — the way in. Of 73 repositories here, **13 are
+original** and **17 more are forked within our own orgs** (`pythaiml`, `augml`,
+`DeltaVML`, `UIUXt`), so GitHub's fork badge undercounts the work by more than
+half. The remaining 43 are external forks: study material, kept honestly as
+what they are. The vectara repositories are reference only and have not been in
+use since the hackathon.
+
+### The engine and its variants
+| repo | what it is |
+|---|---|
+| [RAGE](https://github.com/GATERAGE/RAGE) | the engine itself · GPL-3.0 · [ragepaper](https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md) |
+| [deeprage](https://github.com/GATERAGE/deeprage) | multi-model MVP — local models and API |
+| [deepragetemplate](https://github.com/GATERAGE/deepragetemplate) | the template others start from |
+| [DeepSeekRAGE](https://github.com/GATERAGE/DeepSeekRAGE) | DeepSeek, streaming |
+| [ragemini2](https://github.com/GATERAGE/ragemini2) · [RAGEmini](https://github.com/GATERAGE/RAGEmini) | Gemini |
+
+### The cognitive corners
+| repo | what it is |
+|---|---|
+| [aGLM](https://github.com/GATERAGE/aglm) | Autonomous General Learning Model, extrapolated from `automindx` |
+| [mastermind](https://github.com/GATERAGE/mastermind) | strategic orchestration — directive → plan → execute |
+| [neuralnet](https://github.com/GATERAGE/neuralnet) | RAGE integrated with a mini production transformer |
+| [drage](https://github.com/GATERAGE/drage) | dynamic self-prompting from `agency.txt` |
+| [RAGEnet](https://github.com/GATERAGE/RAGEnet) | neuralnet with RAGE |
+
+### The surfaces
+| repo | what it is |
+|---|---|
+| [ragebar](https://github.com/GATERAGE/ragebar) | live search where the meter reads out retrieval |
+| [rageminibar](https://github.com/GATERAGE/rageminibar) | modular Streamlit menus for advanced RAGE settings |
+| [RAGE-ui](https://github.com/GATERAGE/RAGE-ui) | UIUX for RAGE |
+
+### The wider ecosystem
+- **Professor Codephreak:** https://github.com/Professor-Codephreak — *the clearest map of how this came to be*
+- **mindX:** https://github.com/AgenticPlace/mindX · live at https://mindx.pythai.net
+- **MASTERMIND:** https://github.com/mastermindML
+- **webmindml:** https://github.com/webmindml
+- **openmind:** https://github.com/openmindx
+- **PYTHAI org:** https://github.com/pythaiml
+
+The narrative is told properly in the articles on
+[rage.pythai.net](https://rage.pythai.net).
 
 ---
 
@@ -483,7 +563,7 @@ It has since evolved into a production direction focused on:
 ---
 
 ## Partnership / Inquiries
-**mmrai@pythai.net**
+**sales@pythai.net**
 
 ---
 
